@@ -15,6 +15,6 @@ let myRange2: Range<Int> = 10..<20
 //    print(number)
 //}
 
-for number in 0...5{
+for number in (0...5).reversed() {
     print(number)
 }
